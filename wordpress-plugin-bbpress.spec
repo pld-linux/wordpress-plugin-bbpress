@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	bbPress is forum software, made the WordPress way
 Name:		wordpress-plugin-%{plugin}
-Version:	2.4.1
+Version:	2.3.2
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://downloads.wordpress.org/plugin/bbpress.%{version}.zip
-# Source0-md5:	6657454e11d0f2243b97e9f5092a9c55
+# Source0-md5:	622d1c13295f92bb12e25d627a5d4153
 URL:		http://wordpress.org/plugins/bbpress/
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	unzip
@@ -20,7 +20,7 @@ Requires:	php(pcre)
 Requires:	php(xml)
 Requires:	webapps
 Requires:	webserver(php)
-Requires:	wordpress >= 3.6
+Requires:	wordpress >= 3.5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
