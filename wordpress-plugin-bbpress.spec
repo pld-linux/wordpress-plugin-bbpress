@@ -33,7 +33,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 bbPress is forum software, made the WordPress way.
 
 %prep
-%setup -qn %{plugin}
+%setup -qc
+mv %{plugin}/* .
+rmdir %{plugin}
 
 rm languages/bbpress.pot
 find -name index.php | xargs rm
