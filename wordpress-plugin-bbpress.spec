@@ -8,7 +8,7 @@ Release:	1
 License:	GPL
 Group:		Applications/WWW
 Source0:	http://downloads.wordpress.org/plugin/bbpress.%{version}.zip
-# Source0-md5:	7b299cc13d1f1db3624b7f351083af24
+# Source0-md5:	6657454e11d0f2243b97e9f5092a9c55
 URL:		http://wordpress.org/plugins/bbpress/
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	unzip
