@@ -3,8 +3,9 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	bbPress is forum software, made the WordPress way
 Name:		wordpress-plugin-%{plugin}
+# for wordpress 3.5 (current th version), use 2.3-branch branch
 Version:	2.4.1
-Release:	1
+Release:	0.1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://downloads.wordpress.org/plugin/bbpress.%{version}.zip
