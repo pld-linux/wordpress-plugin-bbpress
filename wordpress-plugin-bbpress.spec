@@ -4,7 +4,7 @@
 Summary:	bbPress is forum software, made the WordPress way
 Name:		wordpress-plugin-%{plugin}
 Version:	2.3.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://downloads.wordpress.org/plugin/bbpress.%{version}.zip
