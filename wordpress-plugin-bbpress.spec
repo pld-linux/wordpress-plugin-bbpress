@@ -1,6 +1,5 @@
 %define		plugin	bbpress
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	bbPress is forum software, made the WordPress way
 Name:		wordpress-plugin-%{plugin}
 # for wordpress 3.5 (current th version), use 2.3-branch branch
